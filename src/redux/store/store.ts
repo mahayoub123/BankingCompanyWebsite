@@ -4,6 +4,8 @@ import featuresSlice from "../slices/featuresSlice";
 import faqQuestionSlice from "../slices/faqQuestionSlice";
 import valuesSlice from "../slices/valuesSlice";
 import benfitsSlice from "../slices/benfitsSlice";
+import pressSlice from "../slices/pressSlice";
+import protectSlice from "../slices/protectSlice";
 export const store = configureStore({
   reducer: {
     product: productSlice,
@@ -11,6 +13,8 @@ export const store = configureStore({
     faqquestion: faqQuestionSlice,
     values: valuesSlice,
     benfits: benfitsSlice,
+    press: pressSlice,
+    protect: protectSlice,
   },
 });
 

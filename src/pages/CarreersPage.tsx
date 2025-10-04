@@ -1,6 +1,7 @@
 import FAQ from "../components/FAQ/FAQ";
 import Footer from "../components/Footer/Footer";
 import HeroCareers from "../components/HeroCareers/HeroCareers";
+import JobOpenings from "../components/JobOpenings/JobOpenings";
 import NavBar from "../components/NavBar/NavBar";
 import OurBenfits from "../components/OurBenfits/OurBenfits";
 import OurValues from "../components/OurValues/OurValues";
@@ -12,6 +13,7 @@ const CarreersPage = () => {
       <HeroCareers />
       <OurValues />
       <OurBenfits />
+      <JobOpenings />
       <FAQ />
       <Footer />
     </div>
