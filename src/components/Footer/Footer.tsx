@@ -37,16 +37,16 @@ const Footer: React.FC = () => {
 
           <ul className="flex flex-wrap justify-center gap-6 text-sm md:text-base">
             <li className="font-lexend hover:text-lime-400 transition cursor-pointer">
-              Home
+              <a href="/">Home</a>
             </li>
             <li className="font-lexend hover:text-lime-400 transition cursor-pointer">
-              Careers
+              <a href="/careers">Careers</a>
             </li>
             <li className="font-lexend hover:text-lime-400 transition cursor-pointer">
-              About
+              <a href="/about">About</a>
             </li>
             <li className="font-lexend hover:text-lime-400 transition cursor-pointer">
-              Security
+              <a href="/seq">Security</a>
             </li>
           </ul>
 
