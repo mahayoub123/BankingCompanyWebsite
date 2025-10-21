@@ -18,8 +18,7 @@ const NavBar: React.FC = () => {
   return (
     <nav className="bg-[#0e0e0e] text-white px-6 py-3 flex items-center justify-between relative">
       <div className="flex items-center gap-2">
-        <img src={logo} alt="Logo" className="w-6 h-6" />
-        <span className="font-lexend font-bold text-lg">YourBanK</span>
+        <img src={logo} alt="Logo" className="w-[194px] h-[45px]" />
       </div>
 
       <div className="hidden md:flex items-center gap-6">
