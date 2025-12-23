@@ -79,7 +79,10 @@ const Footer: React.FC = () => {
           </div>
 
           <div className=" font-lexend flex flex-col md:flex-row justify-between items-center w-full text-xs text-gray-500 border-t border-gray-800 pt-6 gap-4">
-            <p>© YourBank. All Rights Reserved</p>
+            <p>
+              © Debeloped by Front End Developer: Mahmoud Ayoub. All Rights
+              Reserved
+            </p>
             <div className="flex gap-4">
               <a href="#" className="font-lexend hover:text-lime-400">
                 Privacy Policy
